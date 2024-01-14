@@ -1,0 +1,28 @@
+{
+    "name": "wpint/jwt",
+    "description": "The Wpint JWT package.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Barzegar",
+            "email": "ali.barzegar.rahimi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wpint\\JWT\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
